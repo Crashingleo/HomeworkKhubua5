@@ -73,7 +73,7 @@ public class Main {
         double summ = 29000;
         for (int i = 1; i < 13; i++) {
 
-            summ = (summ * i) + (summ * 0.01);
+            summ = (summ * i) + (summ * 0.012);
             System.out.println("Месяц " + i + ", сумма накоплений равна " + summ + " рублей");
         }
 
